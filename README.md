@@ -5,11 +5,11 @@
     - pinMode(pin, mode) iki değer alır biri pin numarası, diğeri INPUT (Giriş) veya OUTPUT (Çıkış) parametreleri.
 1. Örnek
 
-pinMode(D4, OUTPUT);
+pinMode(pin, OUTPUT);
   
 2. Örnek
 
-pinMode(D4, INPUT);
+pinMode(pin, INPUT);
 
 <h3>DIGITALWRITE :</h3>
   
@@ -19,11 +19,11 @@ pinMode(D4, INPUT);
   
 1. Örnek
 
-digitalWrite(D4, HIGH);
+digitalWrite(pin, HIGH);
   
 2. Örnek
   
-digitalWrite(D4, LOW);
+digitalWrite(pin, LOW);
 <h3>DIGITALREAD :</h3>
 
     - digitalRead, pinin durumunu sorgular ve geriye HIGH (Yüksek) veya LOW (Düşük) döndürür.
@@ -32,11 +32,11 @@ digitalWrite(D4, LOW);
   
 1. Örnek
   
-int x = digitalRead(D4);
+int x = digitalRead(pin);
   
 2. Örnek
   
-if(digitalRead(D4) == HIGH) digitalWrite(D4, LOW);
+if(digitalRead(pin) == HIGH) digitalWrite(pin, LOW);
 <h3>DELAY :</h3>
 
     - delay, programı belirli bir süre çerçevesinde duraksatmak, geciktirmek için kullanılır.
